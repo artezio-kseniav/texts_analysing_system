@@ -1,0 +1,129 @@
+
+
+
+ ******* The name of the file is "before_CSCC-Cloud-Customer-Architecture-for-Big-Data-and-Analytics.txt" ******* 
+Private cloud deployment is a solution  that generally offers the most efficient access to this secure data while maintaining access to internally  shared software and analytics.
+Critical data and processing remains in the enterprise data center, while other  resources are deployed in public cloud environments.
+Another benefit is the ability to develop applications on dedicated resource pools in a hybrid cloud  deployment that eliminates the need to compromise on configuration details like processors, GPUs,  memory, networking and even software licensing constraints.
+Figure 1 shows the elements that may be needed for any big data analytics solution across three  domains: public networks, provider clouds, and enterprise networks.
+The provider cloud uses data integration components and potentially streaming computing to capture this combined data into data repositories where analytics can be performed to deliver actionable  insights.
+Once the models are executed, their outcome is provided  for use as actionable insight via information views into the data which are also exposed for ad-hoc  analysis by end users or other applications on the client premises.
+The public network contains elements that exist in the internet: data sources, users and the edge  services needed to access the provider cloud or enterprise network.
+When the data or user requests comes from the external internet, the flow may come through edge  services including DNS servers, Content Delivery Networks (CDNs), firewalls, and load balancers before  entering the cloud providers data integration or data streaming entry points.
+
+
+ ******* The name of the file is "before_Big_Data_Analytics_for_Security_Intelligence.txt" ******* 
+The technological advances in storage, processing, and analysis of Big Data include (a) the rapidly decreasing cost  of  storage  and  CPU  power  in  recent  years;  (b)  the  flexibility  and  cost-effectiveness  of  datacenters  and  cloud  computing for elastic computation and storage; and (c) the development of new frameworks such as Hadoop,  which  allow  users  to  take  advantage  of  these  distributed  computing  systems  storing  large  quantities  of  data  through  flexible  parallel  processing.
+For  example,  Big  Data  analytics  can  be  employed  to  analyze  financial  transactions,  log  files,  and  network  traffic  to  identify  anomalies  and  suspicious  activities, and to correlate multiple sources of information into a coherent view.
+Finally,  exploring  the  use  of  large-scale  distributed  systems  has  the  potential  to  help  to  analyze  more  data  at  once,  to  cover  more  attack  paths  and  possible targets, and to reveal unknown threats in a context closer to the target, as is the case in APTs. Experimental research in cyber security is rarely reproducible because todays data sets are not widely available  to the research community and are often insufficient for answering many open questions.
+The WINE platform was used to measure the duration of 18 zero-day attacks  by combining the binary reputation and anti-virus telemetry data sets and by analyzing field data collected on 11  million hosts worldwide (Bilge & Dumitras, 2012).
+
+
+ ******* The name of the file is "before_Big_Data_Taxonomy.txt" ******* 
+Latency Requirements The first way to characterize data would be according to time span in which it needs to be analyzed: Real-time (financial streams, complex event processing (CEP), intrusion detection, fraud detection), Near real-time (ad placement), Batch (retail, forensics, bioinformatics, geodata, historical data of various types).
+Some of the many applications that involve data arriving in real-time include the following:  On-line ad optimization (including real-time bidding), High frequency online trading platforms,  Security event monitoring, Financial transaction monitoring and fraud detection, Web analytics and other kinds of dashboards, Churn prediction for online games or e-commerce, Optimizing devices, industrial plants or logistics systems based on behavior and usage, Control systems related tasks; e.g., the SmartGrid, nuclear plants,  Sentiment analysis of tweets pertaining to a topic.
+As might be expected, event response complexity that is high in both the compute and data domain aspects, when  coupled with high input/output data rates and low latency requirements poses the most severe challenges on the  underlying infrastructure.
+These stream processing frameworks primarily address only parallelization of the computational load; an additional  storage layer is needed to store the results in order to be able to query them.
+To run programs faster, Spark provides primitives for  in-memory cluster computing: a job can load data into memory and query it repeatedly much more quickly than with  disk-based systems such as Hadoop MapReduce.
+On the other hand, semi-supervised learning techniques exploit structural commonality  between labeled and unlabeled data in an efficient manner to generalize the functional mapping over large datasets.
+
+
+ ******* The name of the file is "before_Big-Data-New-Concerns.txt" ******* 
+The Report identifies five  areas of focus:  protecting privacy, preventing discrimination, ensuring responsible use of information by  government agencies, harnessing data as a public resource, and using big data to enhance learning  opportunities.
+The Report concludes with policy recommendations, including, advancing the Consumer Privacy  Bill of Rights; passing national data breach legislation; amending the Electronic Communications Privacy Act;  expanding technical expertise to stop discrimination; extending privacy protections to non-U.S. persons; and  ensuring that data collected on students in school are used for educational purposes.
+Data brokers have been the subject of intense scrutiny in the past few years, including several initiatives by the  Federal Trade Commission, alleging violation of the U.S. Fair Credit Reporting Act. The Report encourages the  data broker industry to build a portal where data brokers would disclose their data practices and provide  methods for consumers to better control the collection and use of their information and to opt-out of certain  marketing uses.
+After having been the target of much criticism for its practices and its lack of adequate protection, the United  States is now stepping up its efforts to communicate with other worldwide powers and attempt to establish, and  participate in, bridges between the different privacy and data protection regimes, such as through its initiatives  as part of the Asia Pacific Economic Cooperation (APEC).
+The Report recommends that civil  rights and consumer protection agencies expand their technical expertise and identify practices and outcomes  that may have a discriminatory impact on protected classes, and develop a plan for investigating and resolving  violations of law.
+
+
+ ******* The name of the file is "before_Comment_on_Big_Data_Future_of_Privacy.txt" ******* 
+For example, do the current U.S. policy framework and privacy proposals for protecting  consumer privacy and government use of data adequately address issues raised by big data  analytics?
+Privacy protection has become an elusive goal in the big data era as researchers have shown that "linkability  threats" can re-identity individuals.
+Due to the highly personal nature of data of individuals, the policy  framework should lead to best practices to store and transmit the data.
+With the advent of big data era, analytics tools require access to raw data for  generating information of high value for both individuals as well as third party organizations.
+The policy framework needs to address systematizing privacy preserving data disclosure  mitigating linkability threats in the big data era.
+Specifically, the policy framework might have to lead to  enforcement that all linkable data be encrypted.
+Furthermore, the policy framework needs to address the  concerns on the geo location where the data is stored.
+Healthcare Education, Financial wellness, Employment, Mobility, and Information Access are some of the  specific sectors that should receive more government/public attention.
+Are there particularly promising technologies or new practices for safeguarding privacy while enabling effective  uses of big data?
+Homomorphic Encryption and Differential Privacy are some of the promising technologies for  safeguarding privacy while enabling effective uses of big data.
+The question of where the data is stored, where the data is processed and where the data analytics results are  distributed influence the cross boundary jurisdictions pertaining to privacy policies and regulations.
+
+
+ ******* The name of the file is "before_CSA13-Top10Crypto.txt" ******* 
+TOP 10 CHALLENGES IN CRYPTOGRAPHY FOR BIG DATA.
+How is cryptography for Big Data different?
+DATA: balance privacy and utility, enable analytics and governance on encrypted data, reconcile authentication and anonymity.
+Key Points: Secure Dissemination - Differential Privacy, Policy-based Encryption, Searching/Filtering Encrypted Data, Secure Outsourcing of Computation, Proof of Data Storage.
+Traditionally access control has been enforced by systems  Operating Systems, Virtual Machines: Restrict access to data, based on access policy, Data is still in plaintext, Systems can be hacked, Security of the same data in transit is a separate concern.
+What if we protect the data itself in a cryptographic shell depending on the access policy?
+Searching and Filtering Encrypted Data.
+Suppose you have a system to receive emails encrypted under your public key.
+With plain public key encryption, there is no way to distinguish a legitimate email ciphertext from a spam ciphertext!
+Suppose you want to send all your sensitive data to the cloud: photos, medical records, financial records.
+But wouldnt be much use if you wanted the cloud to perform some computations on them.
+Cloud can perform any computation on the underlying plaintext, all the while the results are encrypted!
+There is a realization across the industry that cryptographic technologies are imperative for cloud and big data.
+Mathematical assurance of trust gives people more incentive to migrate data and computation to cloud.
+Sophisticated techniques are in research stage or have limited deployments, which enable rich transformations and management of encrypted data.
+
+
+ ******* The name of the file is "iso_N0200_ISO-IEC_20546_Committee_Draft.txt" ******* 
+The new big data techniques represented a shift at that time to use distributed data processing through horizontal scaling to achieve the needed performance efficiency at an affordable cost.
+The revolution in technologies referred to as big data has arisen because the relational model could no longer efficiently handle all the needs for analysis of large and often unstructured datasets.
+To understand this revolution, the interplay of the following aspects must be considered: the characteristics of the datasets, the analysis of the datasets, the performance of the systems that handle the data, the business considerations of cost effectiveness, and the new engineering and analysis techniques for distributed data processing using horizontal scaling.
+While modern relational databases tend to have support for these types of data elements, their ability to directly analyse, index, and process them has tended to be both limited and accessed via non-standard SQL extensions.
+SQL was first published as ISO International Standard (ISO/IEC 9075) in 1987, and it has been revised to include a larger set of features as the query language for Information technology.
+Typical technological advances in sensors, and the deployment of IPV6 to provide Internet connectivity to sensors creates the need for a big data system that can handle high velocity streaming data from a number of sources.
+The needs for distributed data processing have led to a number of new programming and query languages suited to the development of big data systems, as well as new processes.
+
+
+ ******* The name of the file is "iso_ISO-IECJTC1-WG9_N0087_N0087_WD_of_ISOIEC_20546_1st_Edition.txt" ******* 
+For an explanation on the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO's adherence to the WTO principles in the Technical Barriers to Trade (TBT) see the following URL: Foreword - Supplementary information The committee responsible for this document is ISO/JTC1 Information Technology, Working Group WG9, Big Data.
+The term big data implies the paradigm shift to use distributed, scalable computing for data-intensive systems to achieve the needed performance efficiency at an affordable cost.
+The current revolution in technologies referred to as Big Data has arisen because the relational data model can no longer efficiently handle all the current needs for analysis of large and often unstructured datasets.
+To understand this revolution, the interplay of the following aspects must be considered: the characteristics of the datasets, the analysis of the datasets, the performance of the systems that handle the data, the business considerations of cost effectiveness, and the new technical field of engineering and analysis techniques for distributed processing across nodes.
+A.1.1 ISO/IEC 17788:2014, Information technology  Cloud computing  Overview and vocabulary A.1.2 ISO\IEC JTC1 Information technology Big data  preliminary report 2014 A.2 Guiding ISO\IEC Documents A.2.1 ISO 704:200, Terminology work  Principles and methods A.2.2 ISO 860:2007 Terminology work  Harmonization of concepts and terms A.2.3 ISO 1087-1:2000, Terminology work -- Vocabulary -- Part 1: Theory and application A.2.4 ISO 10241-1:2011 Terminology entries in standards  Part 1: General Requirements and examples of presentation A.2.5 ISO 10241-2:2011 Terminology entries in standards  Part 2: Adoption of standardised terminological entries A.2.6 JTC 1 SD 20 JTC 1 IT Vocabulary Maintenance Team Best Practices Guide, Executive Summary (JTC 1 N 12090).
+
+
+ ******* The name of the file is "iso_N0147_ISO_IEC_20546_2nd_WorkingDraft.txt" ******* 
+For an explanation on the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO's adherence to the WTO principles in the Technical Barriers to Trade (TBT) see the following URL: Foreword - Supplementary information The committee responsible for this document is ISO/JTC1 Information Technology, Working Group WG9, Big Data.
+The ISO/IEC JTC1 WG9 on Big data decided that the normative content of this document would benefit greatly at this time with another informative document that provided context for the creation of 20546, as well as discussion of the concepts ascribed to Big Data that are not in fact new to Big Data.
+This International Standard provides an overview of Big Data along with a set of terms and definitions.
+The term big data implies the paradigm shift to use distributed, scalable computing for data-intensive systems to achieve the needed performance efficiency at an affordable cost.
+The current revolution in technologies referred to as Big Data has arisen because the relational data model can no longer efficiently handle all the current needs for analysis of large and often unstructured datasets.
+Most Big Data functional components are provided by Cloud computing, helping systems achieve characteristics of volume, velocity, and variety.
+SQL was first published as ISO International Standard (ISO/IEC 9075) in 1987, and it has been revised to include a larger set of features as the query language for Information technology.
+
+
+ ******* The name of the file is "itu_T-REC-Y3600-201511.txt" ******* 
+Recommendation  ITU-T  Y.3600  provides  requirements,  capabilities  and  use  cases  of  cloud  computing based big data as well as its system context.
+Cloud computing based big data provides the  capabilities to collect, store,  analyse,  visualize and  manage varieties of large volume datasets, which  cannot be rapidly transferred and analysed using traditional technologies.
+This Recommendation provides an approach to use cloud computing to meet  existing  challenges in  the use of big data.
+Privacy:  Data  about  human  individuals,  such  as  demographic  information,  Internet  activities,  commutation  patterns,  social  interactions,  energyThe big  data service provider  (BDSP) supports capabilities for big  data analytics  and infrastructure.
+Big data service provider activities include:  searching  data  sources  (from  the  data  broker)  and  collecting  data  by  requesting  and  crawling, storing data to a data repository, integrating data, providing tools for data analysis and visualization, supporting  data  management  such  as  data  provenance,  data  privacy,  data  security,  data  retention policy, data ownership, etc.
+Big data refers  to  technologies and services which extract valuable information from the  extensive datasets  characterized  by  the  Vs,  while  cloud  computing  is,  as  defined  in  [ITU-T Y.3500],  the  paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual  resources with self-service provisioning and administration on-demand.
+Big  data  needs  on-demand  high  performance  data  processing  and  distributed  storage  as  well  as  variety of tools required to accomplish activities of the big data  ecosystem which  are  described in  clause 6.2.
+Cloud computing based big data system context is described with new sub-roles and activities based  on  the  architectural  user  view  defined  in  [ITU-T  Y.3502].
+
+
+ ******* The name of the file is "nist_NISTSP1500-4.txt" ******* 
+These topics include the following:  Examining closely other existing templates in literature: The templates may be adapted to the  Big Data security and privacy fabric to address gaps and to bridge the efforts of this Subgroup  with the work of others,  Further developing the security and privacy taxonomy,  Enhancing the connection between the security and privacy taxonomy and the NBDRA  components,  Developing the connection between the security and privacy fabric and the NBDRA,  Expanding the privacy discussion within the scope of this volume,  Exploring governance, risk management, data ownership, and valuation with respect to Big Data  ecosystem, with a focus on security and privacy,  Mapping the identified security and privacy use cases to the NBDRA,  Contextualizing the content of Appendix B in the NBDRA, and  Exploring privacy in actionable terms based on frameworks such as those described in NISTIR  with respect to the NBDRA.
+Any strategy to achieve proper access  control and security risk management within a Big Data cloud ecosystem enterprise architecture must  address the complexities associated with cloud-specific security requirements triggered by cloud  characteristics, including, but not limited to, the following:  Broad network access,  Decreased visibility and control by consumer,  Dynamic system boundaries and commingled roles and responsibilities between consumers and  providers,  Multi-tenancy, Data residency,  Measured service  Order-of-magnitude increases in scale (on demand), dynamics (elasticity and cost optimization),  and complexity (automation and virtualization).
+
+
+ ******* The name of the file is "nist_NISTSP1500-1.txt" ******* 
+The NIST Big Data Public Working Group (NBD-PWG) Definitions and Taxonomy Subgroup prepared  this NIST Big Data Interoperability Framework: Volume 1, Definitionsto address fundamental concepts  needed to understand the new paradigm for data applications, collectively known as Big Data, and the  analytic processes collectively known as data science.
+To ensure that the concepts are accurate, future  NBD-PWG tasks will consist of the following:  Defining the different patterns of communicationsbetween Big Data resources to better clarify  the different approaches being taken,  Updating Volume 1 taking into account the efforts of other working groups such as International  Organization for Standardization (ISO) Joint Technical Committee 1 (JTC 1) and the Transaction  Processing Performance Council,  Improving the discussions of governance and data ownership,  Developing the Management section,  Developing the Security and Privacy section, and  Adding a discussion of the value of data.
+While these technologies solved many aspects of accessing very large datasets from multiple nodes  simultaneously, they suffered from issues related to data locking and updates and, more importantly,  created a performance bottleneck (from every input/output [I/O] operation accessing the common storage  pool) that limited their ability to scale up to meetthe needs of many Big Data applications.
+Big Data engineering includes advanced techniques that harness independent resources for building  scalable data systems when the characteristics of the datasets require new architectures for efficient  storage, manipulation, and analysis.
+
+
+ ******* The name of the file is "nist_NISTSP1500-2.txt" ******* 
+The NIST Big Data Public Working Group (NBD-PWG) Definitions and Taxonomy Subgroup prepared  this NIST Big Data Interoperability Framework: Volume 1, Definitionsto address fundamental concepts  needed to understand the new paradigm for data applications, collectively known as Big Data, and the  analytic processes collectively known as data science.
+The NBD-PWG Definitions and Taxonomy Subgroup focused on identifying Big Data concepts, defining  terms needed to describe this new paradigm, and defining reference architecture terms.
+In the  NBDRA presented in NIST Big Data Interoperability Framework Volume 6: Reference Architecture,  there are two roles that span the activities within the other roles: Management, and Security and Privacy.
+This  examination at different groupings provides a way to easily identify the data characteristics that have  driven the development of Big Data engineering technologies, as described in the NIST Big Data  Interoperability Framework: Volume 1, Definitions.
+Finally, to  understand how these systems are organized and integrated to meet users needs, the reader is referred to  NIST Big Data Interoperability Framework:Volume 3, Use Cases and General Requirements.
+As changes in the activities within these roles are clarified, the  taxonomy will be developed further.In addition, a fuller understanding of Big Data and its technologies should consider the interactions between the characteristics of the data and the desired methods in both  technique and time window for performance.
+In Section  2 of this document, a taxonomy was presented for the NBDRA, which is described in NIST Big Data  Interoperability Framework: Volume 6, Reference Architecture.
