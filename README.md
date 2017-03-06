@@ -6,6 +6,8 @@ Presented articles from the schizophrenia and big data area.
 
 UPDATED_big_data_industrial catalogue -> big data area.
 
+UPDATED_schizophrenia_area catalogue -> schizophrenia area.
+
 
 Including:
 
