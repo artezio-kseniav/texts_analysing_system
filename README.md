@@ -15,3 +15,8 @@ Including:
 - Evaluation of summaries quality by ROUGE metric
 
 - KeyWords extraction
+
+
+The main file is "texts_analysing_system.ipynb".
+
+Additional scripts for interactive visualisation in: visualisation_schizophrenia & visualisation_bigdata_standards
