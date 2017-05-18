@@ -1,30 +1,17 @@
-# Texts Analysing System
-Science Publication Texts Analysing System. 
-
-Presented articles from the schizophrenia and big data area.
-
-
-UPDATED_big_data_industrial catalogue -> big data area.
-
-UPDATED_schizophrenia_area catalogue -> schizophrenia area.
-
+# Analysing System for science publication texts, machine learning and natural language processing based.
 
 Including:
 
-- Text Preprocessing
+- Text Preprocessing (tokenization, removing stop words, lemmatization and stemming)
+
+- Construction of vector space model for document collection, Word2Vec modeling
+
+- Calculation of semantic similarity between texts, in order to find relevant
+
+- Texts visualisation in numerical 3-dimensional space, tSNE
+
+- Automatic text summarization by four algorithms: TextRank, LSA, Kullback–Leibler, LexRank
+
+- Evaluation of summaries quality by ROUGE metric
 
 - KeyWords extraction
-
-- Syntactic Parsing. Part of speech tagging
-
-- Word Embedding (text vectors).
-
-- Word2Vec Model Visualisation
-
-- TF – IDF matrices
-
-- Search cosine similarity between documents
-
-- Five different algorithms for construction of summaries: improved "TextRank" from Gensim, usual TextRank, LSA, Kullback–Leibler, LexRank
-
-- Final texts Visualisation
